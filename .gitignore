@@ -1,0 +1,98 @@
+###############################
+# Unreal Engine 5.7 – Git Ignore
+###############################
+
+# --- Project files that should NOT be ignored ---
+!*.uproject
+!Config/
+!Source/
+
+############################################
+# Ignore ALL Content except your game folder
+############################################
+Content/*
+!Content/CannonVsBotsGame/
+!Content/CannonVsBotsGame/**
+
+############################################
+# Visual Studio
+############################################
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vsconfig
+
+############################################
+# Compiled Object files
+############################################
+*.o
+*.obj
+*.lo
+*.slo
+
+############################################
+# Precompiled Headers
+############################################
+*.pch
+*.gch
+
+############################################
+# Dynamic Libraries
+############################################
+*.dll
+*.so
+*.dylib
+
+############################################
+# Static Libraries
+############################################
+*.lib
+*.a
+*.la
+*.lai
+
+############################################
+# Executables
+############################################
+*.exe
+*.app
+*.ipa
+*.out
+
+############################################
+# Unreal Engine Generated Folders
+############################################
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Allow PakBlacklist files
+!Build/*/PakBlacklist*.txt
+
+# Ignore everything else in Build
+Build/*
+
+############################################
+# Autosaves, Backups, Logs, Crash Dumps
+############################################
+Saved/Autosaves/
+Saved/Backup/
+*.log
+*.dmp
+
+############################################
+# Plugins (generated)
+############################################
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+############################################
+# Precompiled Assets
+############################################
+SourceArt/**/*.png
+SourceArt/**/*.tga
