@@ -15,7 +15,7 @@ Content/*
 !Content/CannonVsBotsGame/**
 
 ############################################
-# Visual Studio
+# Visual Studio & VS Code
 ############################################
 .vs/
 *.sln
@@ -25,6 +25,10 @@ Content/*
 *.VC.db
 *.VC.opendb
 .vsconfig
+
+# VS Code generated files
+.vscode/compileCommands_*/
+.ignore
 
 ############################################
 # Compiled Object files
