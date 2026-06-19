@@ -8,8 +8,9 @@ public class Canon2026Target : TargetRules
 	public Canon2026Target(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V6;
+		DefaultBuildSettings = BuildSettingsVersion.V7;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_8;
 
-		ExtraModuleNames.AddRange( new string[] { "Canon2026" } );
+		ExtraModuleNames.AddRange(new string[] { "Canon2026" });
 	}
 }
